@@ -1,6 +1,7 @@
 version: '3.8'
 services:
   node:
+    container_name: ganache-node
     image: trufflesuite/ganache-cli:latest
     ports:
       - "8545:8545"
